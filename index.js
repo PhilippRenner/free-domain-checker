@@ -51,7 +51,7 @@ function checkDomain(domain) {
 
 async function main() {
 	console.log(
-		chalk.blue(`
+		chalk.lightblue(`
  /$$$$$$$                                    /$$                  /$$$$$$  /$$                           /$$                          
 | $$__  $$                                  |__/                 /$$__  $$| $$                          | $$                          
 | $$  \\ $$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$  /$$ /$$$$$$$       | $$  \\__/| $$$$$$$   /$$$$$$   /$$$$$$$| $$   /$$  /$$$$$$   /$$$$$$ 
@@ -62,7 +62,7 @@ async function main() {
 |_______/  \\______/ |__/ |__/ |__/ \\_______/|__/|__/  |__/       \\______/ |__/  |__/ \\_______/ \\_______/|__/  \\__/ \\_______/|__/                                                                                                                                                                                       
 `)
 	);
-	console.log(chalk.green("Hallo, checken my GitHub-Profil \u{1F680} ") + chalk.blue("https://github.com/tonyGraetscher"));
+	console.log(chalk.green("Hallo, checken my GitHub-Profil \u{1F680} ") + chalk.lightblue("https://github.com/tonyGraetscher"));
 
 	if (!fs.existsSync("./config.json")) {
 		console.log(chalk.red("Please create a config.json file. You can use the config.json.example file as a template."));
