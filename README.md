@@ -56,7 +56,8 @@ domain3.com
 first install nodejs minimum version 16 or higher
 
 ```bash
-apt install nodejs
+apt update
+apt install nodejs, npm, git 
 ```
 
 or download from [nodejs.org](https://nodejs.org/en/download/) for windows
